@@ -2,17 +2,20 @@ package com.zalizniak;
 
 import org.junit.Test;
 
-import static org.junit.Assert.assertTrue;
+import java.util.function.Function;
 
-/**
- * Unit test for simple App.
- */
 public class AppTest {
-    /**
-     * Rigorous Test :-)
-     */
+
     @Test
     public void shouldAnswerWithTrue() {
-        assertTrue(true);
+        Function<String, Void> print = (var s) -> {
+            System.out.println(s);
+            return null;
+        };
+        print.apply("Hello World !");
+
+        var i = 2;
+
+
     }
 }
