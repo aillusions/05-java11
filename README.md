@@ -13,3 +13,6 @@ mvn --version | grep -i java
     
 mvn clean package
     BUILD SUCCESS
+    
+    
+java --list-modules
