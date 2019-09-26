@@ -8,7 +8,6 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.zalizniak</groupId>
     <artifactId>moduleA</artifactId>
     <version>1.0-SNAPSHOT</version>
 
